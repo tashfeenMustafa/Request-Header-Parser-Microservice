@@ -1,0 +1,29 @@
+{
+  "name": "req-header-parser",
+  "version": "1.0.0",
+  "description": "Request Header Parser Microservice API that displays the visited' browser's ip address, langauge and operating system.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tashfeenMustafa/Request-Header-Parser-Microservice.git"
+  },
+  "keywords": [
+    "Request",
+    "Header",
+    "Parser",
+    "Microservice"
+  ],
+  "author": "Tashfeen Mustafa Choudhury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tashfeenMustafa/Request-Header-Parser-Microservice/issues"
+  },
+  "homepage": "https://github.com/tashfeenMustafa/Request-Header-Parser-Microservice#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-useragent": "^1.0.4"
+  }
+}
